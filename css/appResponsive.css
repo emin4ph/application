@@ -1,0 +1,117 @@
+@media only screen and (min-width: 991px) {
+	.navbarColps{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.nav-item{
+		padding: 0 5px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.tffBox{
+		display: none;
+	}
+	.mobileMode{
+		display: none;
+	}
+	.mainBoxFirst{		
+		grid-template-rows: 200px 250px;
+	}
+	.mobileMargin{
+		margin-top: 40px;
+	}
+	.group2 li{
+		padding: 0 !important;
+	}
+	.group3 p{	
+		padding: 0;
+	}	
+}
+@media only screen and (max-width: 767px){
+	.cardPrice{
+		width: 100%;
+	}
+	.cardtrial{		
+		justify-content: flex-start;	
+	}
+}
+@media only screen and (max-width: 580px){
+	.group2{		
+		grid: auto 20px auto / auto;
+	}
+	.mainBoxFirst{		
+		grid-template-rows: 150px 250px;
+	}
+	.el2{	
+		width: 45vmin;	
+	}
+	.hLineMobile{
+		display: block !important;		
+	}
+	.hLine{
+		display: none !important;
+	}
+	.mainTxtBox h1{
+		font-size: 30px;
+	}
+	.group1Text h1{
+		font-size: 30px;
+	}
+	.group2 li h1{
+		font-size: 30px;
+		padding: 0 0 20px 0;
+	}
+	.centeredMobileMode{
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.smartGroup h1{
+		font-size: 30px;
+	}
+	.group4 h1{
+		font-size: 30px;
+	}
+	.group5 h1{
+		font-size: 30px;
+	}
+	.group6 h1{
+		font-size: 30px;
+	}
+	.clientBox h1{
+		font-size: 30px;
+	}
+	.askBox h1{
+		font-size: 30px;
+	}
+	.downloadBox h1{
+		font-size: 30px;
+	}
+	.nameBox h6{		
+		font-size: 14px;		
+	}
+	.nameBox span{
+		font-size: 12px;
+	}
+	.footerSel{	
+		grid: repeat(5, 30px) / auto;
+	}
+	.userImg{
+		width: 65px !important;
+		height: 50px !important;
+	}
+	.number1{		
+		width: 100%;
+	}
+	.dwnldBtn{		
+		grid: auto auto / 150px;
+		grid-row-gap: 10px;
+	}
+}
+/*-------------HEIGHT---------------*/
+@media only screen and (min-width: 991px) and (max-height: 840px){
+	.mainBoxFirst{	
+		grid-template-rows: 75vmin 30vmin;
+	}
+}
